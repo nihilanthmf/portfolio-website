@@ -50,7 +50,7 @@ const cardsRu = [
     imageURL: imageDanielMap,
     name: "Community Map",
     description:
-      "Мини проект - карта для сообщества, чтобы его члены могли отмечать где находятся",
+      "Карта для сообщества, чтобы его члены могли отмечать где находятся",
 
     href: "https://daniel-community-map.vercel.app",
     mobile: false,

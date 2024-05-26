@@ -9,7 +9,7 @@ const serviceList: ServiceProps[] = [
   {
     title: "SaaS and Startups",
     description:
-      "I develop complex SaaS apps for your startup. A few examples of my past work are AI customer support solution and Twitter Cold DM automation software",
+      "I develop complex SaaS apps. A few examples of my past work are AI customer support solution and Twitter Cold DM automation software",
   },
   {
     title: "Website development",
@@ -27,17 +27,15 @@ const serviceListRu: ServiceProps[] = [
   {
     title: "SaaS и Стартапы",
     description:
-      "Я могу разработать сложные SaaS-приложения для вашего стартапа. Разработал решение для поддержки клиентов с помощью ИИ и софт для автоматизации холодной рассылки в Twitter с ИИ",
+      "Я разрабатываю сложные SaaS-приложения (веб сервисы). Разработал решение для поддержки клиентов с помощью ИИ и софт для автоматизации холодной рассылки в соц. сетях с ИИ",
   },
   {
     title: "Веб-разработка",
-    description:
-      "Более 2 лет веб-разработки. Я могу спроектировать и разработать вам классный сайт!",
+    description: "Делаю классные сайты (как этот) и буду рад вам помочь с ним!",
   },
   {
     title: "Мобильная разработка",
-    description:
-      "Я могу разработать мобильное приложение для вашего продукта. Создал приложения для знакомств, приложения с ИИ и многое другое",
+    description: "Разработаю кросс-платформенные мобильные приложения",
   },
 ];
 

@@ -1,5 +1,3 @@
-import { useContext, useState } from "react";
-
 import { IoLogoGithub, IoLogoTwitter } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 
@@ -24,7 +22,7 @@ export default function CTA({ lang }: { lang: string }) {
         </div>
 
         <div className="text-lg font-bold text-white text-center my-8">
-          Email me at{" "}
+          {lang === "ru" ? "Напишите мне на" : "Email me at"}{" "}
           <a
             className="underline"
             href="mailto:artemiy.logmy@gmail.com"
@@ -33,7 +31,7 @@ export default function CTA({ lang }: { lang: string }) {
             artemiy.logmy@gmail.com
           </a>
           <br></br>
-          Or contact me on:
+          {lang === "ru" ? "Или свяжитесь со мной через:" : "Or contact me on:"}
           <div className="flex flex-row justify-evenly mt-8 ">
             <IoLogoGithub
               // color="#fff"
