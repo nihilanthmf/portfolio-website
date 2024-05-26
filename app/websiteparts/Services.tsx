@@ -83,12 +83,16 @@ export default function Services({ lang }: { lang: string }) {
           </p>
           <div className="grid gap-4">
             {lang === "ru"
-              ? serviceListRu.map(({ title, description }: ServiceProps) => (
-                  <Card name={title} description={description} />
-                ))
-              : serviceList.map(({ title, description }: ServiceProps) => (
-                  <Card name={title} description={description} />
-                ))}
+              ? serviceListRu.map(
+                  ({ title, description }: ServiceProps, index: number) => (
+                    <Card name={title} description={description} key={index} />
+                  )
+                )
+              : serviceList.map(
+                  ({ title, description }: ServiceProps, index: number) => (
+                    <Card name={title} description={description} key={index} />
+                  )
+                )}
           </div>{" "}
         </div>
 
