@@ -67,8 +67,8 @@ const icons = [
 
 export default function Services({ lang }: { lang: string }) {
   return (
-    <section className="container sm:pb-32 mb-16" id="services">
-      <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
+    <section className=" sm:pb-32 mb-16" id="services">
+      <div className="grid lg:grid-cols-2 gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-black text-text">
             {lang === "en" ? "How can I " : "Чем я могу "}

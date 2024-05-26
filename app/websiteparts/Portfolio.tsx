@@ -135,7 +135,7 @@ const mobileRu = [
 export default function Portfolio({ lang }: { lang: string }) {
   return (
     <section id="portfolio">
-      <BentoGrid className="grid grid-cols-2">
+      <BentoGrid className="grid grid-cols-1 md:grid-cols-2">
         {lang === "ru"
           ? cardsRu.map((feature, idx) => (
               <BentoCard
@@ -173,7 +173,7 @@ export default function Portfolio({ lang }: { lang: string }) {
               />
             ))}{" "}
       </BentoGrid>
-      <BentoGrid className="grid grid-cols-4 mt-4">
+      <BentoGrid className="grid grid-cols-1 md:grid-cols-4 mt-4">
         {lang === "ru"
           ? mobileRu.map((feature, idx) => (
               <BentoCard

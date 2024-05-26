@@ -51,7 +51,7 @@ const BentoCard = ({
       <div
         className={
           cta !== ""
-            ? "pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 bg-background group-hover:-translate-y-10"
+            ? "pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 -translate-y-10 md:translate-y-0 transition-all duration-300 bg-background group-hover:-translate-y-10"
             : "pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6"
         }
       >
@@ -63,7 +63,7 @@ const BentoCard = ({
       {cta !== "" ? (
         <div
           className={cn(
-            "pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
+            "pointer-events-none absolute bottom-0 flex w-full translate-y-0 md:translate-y-10 transform-gpu flex-row items-center p-4 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
           )}
           style={{ zIndex: 10 }}
         >

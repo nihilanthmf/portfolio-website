@@ -9,7 +9,7 @@ import Services from "../websiteparts/Services";
 export default function Home({ params }: { params: { lang: string } }) {
   console.log(params.lang);
   return (
-    <main className="px-24 bg-background pb-16">
+    <main className="px-8 md:px-24 bg-background pb-16">
       {/* <Navbar /> */}
       <Hero lang={params.lang} />
 

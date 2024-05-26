@@ -5,15 +5,15 @@ export default function CTA({ lang }: { lang: string }) {
   return (
     <section
       id="contact"
-      className="shadow-lg mr-8 ml-8 md:mr-32 md:ml-32 py-16 md:py-24 mt-16 h-[80vh] flex justify-center items-center"
+      className="shadow-lg mr-4 ml-4 md:mr-32 md:ml-32 py-16 md:py-24 mt-16 h-[80vh] flex justify-center items-center"
     >
       <div className="h-[50vh] w-full flex flex-col justify-center items-center place-items-center bg-gradient-to-b from-primary to-[#f27f34] shadow-[0px_0px_8px_8px_rgba(235,94,40,0.3)] rounded-[8px] ">
         <div className="lg:col-start-1">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center">
-            {lang === "en" ? "Let have a chat " : "Давайте разрабатывать "}
+            {lang === "en" ? "Let have a chat " : "Давайте обсудим "}
             <br></br>
             <span className="bg-gradient-to-b from-white/80 to-primary/10 text-transparent bg-clip-text">
-              {lang === "en" ? "about your idea!" : "Вашу мечту вместе!"}
+              {lang === "en" ? "about your idea!" : "Вашу идею!"}
             </span>
           </h2>
           {/* <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0 text-center text-black">

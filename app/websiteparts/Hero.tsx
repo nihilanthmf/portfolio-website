@@ -13,7 +13,7 @@ import { PiArrowBendDownLeft, PiArrowBendUpRight } from "react-icons/pi";
 export default function Hero({ lang }: { lang: string }) {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
-      <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20 flex flex-col">
+      <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-4 md:p-20 flex flex-col">
         <DotPattern
           width={20}
           height={20}
@@ -27,10 +27,10 @@ export default function Hero({ lang }: { lang: string }) {
         <Header>
           {lang === "ru" ? "Привет, я Артемий 👋" : "Hi, I'm Artemy 👋"}
         </Header>
-        <div className="flex flex-row items-center text-left">
+        <div className="flex flex-row items-center text-left mt-4 md:mt-0">
           <Subheader>{lang === "ru" ? "Разрабатываю" : "Building"} </Subheader>{" "}
           <WordRotate
-            className="text-2xl bg-clip-text inline-block text-transparent bg-gradient-to-r from-primary to-[#f27f34] font-bold ml-[0.5em]"
+            className="text-xl md:text-2xl bg-clip-text inline-block text-transparent bg-gradient-to-r from-primary to-[#f27f34] font-bold ml-[0.5em]"
             words={
               lang === "ru"
                 ? [
@@ -51,7 +51,7 @@ export default function Hero({ lang }: { lang: string }) {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 w-full md:w-[20vw]">
           <Button
             className={`${cn(buttonVariants({ variant: "default" }))}`}
             onClick={(e) => {
