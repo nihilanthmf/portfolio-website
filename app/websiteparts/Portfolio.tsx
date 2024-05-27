@@ -32,7 +32,7 @@ const cards = [
     name: "CyberChat",
 
     description: "AI customer support chatbot",
-    href: "https://cyberchatai.vercel.app",
+    href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
   },
   {
@@ -69,7 +69,7 @@ const cardsRu = [
     name: "CyberChat",
 
     description: "Чат-бот поддержки клиентов с ИИ",
-    href: "https://cyberchatai.vercel.app",
+    href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
   },
   {
