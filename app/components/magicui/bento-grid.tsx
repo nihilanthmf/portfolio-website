@@ -21,7 +21,7 @@ const BentoCard = ({
   name,
   className,
   background,
-
+  stack,
   description,
   href,
   cta,
@@ -29,7 +29,7 @@ const BentoCard = ({
   name: string;
   className: string;
   background: ReactNode;
-
+  stack: string;
   description: string;
   href: string;
   cta: string;
@@ -63,20 +63,17 @@ const BentoCard = ({
       {cta !== "" ? (
         <div
           className={cn(
-            "pointer-events-none absolute bottom-0 flex w-full translate-y-0 md:translate-y-10 transform-gpu flex-row items-center p-4 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
+            "pointer-events-none absolute bottom-0 flex w-full translate-y-0 md:translate-y-10 transform-gpu flex-row justify-between items-center p-4 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
           )}
           style={{ zIndex: 10 }}
         >
-          <Button
-            variant="ghost"
-            asChild
-            size="sm"
-          >
+          <Button variant="ghost" asChild size="sm">
             <a href={href} target="_blank">
               {cta}
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </a>
           </Button>
+          <p className=" text-[12px] text-text">{stack}</p>
         </div>
       ) : null}
 

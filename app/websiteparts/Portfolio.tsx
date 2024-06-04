@@ -14,23 +14,23 @@ const cards = [
   {
     imageURL: imageDanielMap,
     name: "Community Map",
+    stack: "Next.js, Supabase",
     description: "A map to see where community's members are located",
-
     href: "https://daniel-community-map.vercel.app",
     mobile: false,
   },
   {
     imageURL: imageColdHunt,
     name: "ColdHunt",
+    stack: "Next.js, Supabase, Node.js, Express, Chrome Extensions APIs",
     description: "Scrapes Instagram and sends AI cold DMs",
-
     href: "https://cold-hunt.com",
     mobile: false,
   },
   {
     imageURL: imageCyber,
     name: "CyberChat",
-
+    stack: "React, Node.js, Express, Supabase, OpenAI, HTML, CSS",
     description: "AI customer support chatbot",
     href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
@@ -38,7 +38,7 @@ const cards = [
   {
     imageURL: imageEAIQ,
     name: "evoAIq",
-
+    stack: "Next.js",
     description: "Website for an AI automation agency",
     href: "https://eaiq.io",
     mobile: false,
@@ -49,25 +49,25 @@ const cardsRu = [
   {
     imageURL: imageDanielMap,
     name: "Community Map",
+    stack: "Next.js, Supabase",
     description:
       "Карта для сообщества, чтобы его члены могли отмечать где находятся",
-
     href: "https://daniel-community-map.vercel.app",
     mobile: false,
   },
   {
     imageURL: imageColdHunt,
     name: "ColdHunt",
+    stack: "Next.js, Supabase, Node.js, Express, Chrome Extensions APIs",
     description:
       "Автоматизиция холодной рассылки для Twitter и Instagram с помощью ИИ",
-
     href: "https://cold-hunt.com",
     mobile: false,
   },
   {
     imageURL: imageCyber,
     name: "CyberChat",
-
+    stack: "React, Node.js, Express, Supabase, OpenAI, HTML, CSS",
     description: "Чат-бот поддержки клиентов с ИИ",
     href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
@@ -75,7 +75,7 @@ const cardsRu = [
   {
     imageURL: imageEAIQ,
     name: "evoAIq",
-
+    stack: "Next.js",
     description: "Сайт компании по разработке ИИ продуктов",
     href: "https://eaiq.io",
     mobile: false,
@@ -86,7 +86,7 @@ const mobile = [
   {
     imageURL: imageSummify,
     name: "Summify",
-
+    stack: "placeholder",
     description:
       "Mobile app that records a speech & creates brief summaries with AI",
     href: "/",
@@ -96,7 +96,7 @@ const mobile = [
   {
     imageURL: imageGymBro,
     name: "GymBro",
-
+    stack: "placeholder",
     description:
       "Mobile dating app (for finding a training partner, Tinder clone)",
     href: "/",
@@ -108,7 +108,7 @@ const mobileRu = [
   {
     imageURL: imageSummify,
     name: "Summify",
-
+    stack: "placeholder",
     description:
       "Приложение, которое записывает речь и создает краткие содержания с помощью ИИ",
     href: "/",
@@ -117,7 +117,7 @@ const mobileRu = [
   {
     imageURL: imageNutry,
     name: "Nutry",
-
+    stack: "placeholder",
     description: "Счетчик калорий с элементами геймификации",
     href: "/",
     mobile: true,
@@ -125,7 +125,7 @@ const mobileRu = [
   {
     imageURL: imageGymBro,
     name: "GymBro",
-
+    stack: "placeholder",
     description: "Приложения для знакомств/поиска партнера для тренировок",
     href: "/",
     mobile: true,
