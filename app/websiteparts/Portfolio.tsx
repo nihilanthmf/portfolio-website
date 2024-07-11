@@ -4,6 +4,7 @@ import imageNutry from "../assets/nutry.jpeg";
 import imageSummify from "../assets/summify.jpeg";
 import imageCyber from "../assets/cyberchat.jpeg";
 import imageEAIQ from "../assets/eaiq.jpeg";
+import imageInvoflow from "../assets/invoflow.png";
 import imageDanielMap from "../assets/map.jpeg";
 
 import { BentoCard, BentoGrid } from "../components/magicui/bento-grid";
@@ -36,11 +37,19 @@ const cards = [
     mobile: false,
   },
   {
+    imageURL: imageInvoflow,
+    name: "Invoflow",
+    stack: "Next.js, Supabase",
+    description: "Invoicing software",
+    href: "https://invoflow.vercel.app/",
+    mobile: false,
+  },
+  {
     imageURL: imageEAIQ,
     name: "evoAIq",
     stack: "Next.js",
-    description: "Website for an AI automation agency",
-    href: "https://eaiq.io",
+    description: "Landing page for AI automation agency",
+    href: "https://aideal.online",
     mobile: false,
   },
 ];
@@ -171,46 +180,46 @@ export default function Portfolio({ lang }: { lang: string }) {
                   />
                 }
               />
-            ))}{" "}
-      </BentoGrid>
-      <BentoGrid className="grid grid-cols-1 md:grid-cols-4 mt-4">
-        {lang === "ru"
-          ? mobileRu.map((feature, idx) => (
-              <BentoCard
-                key={idx}
-                {...feature}
-                className=""
-                href={feature.href === undefined ? "/" : feature.href}
-                cta=""
-                background={
-                  <Image
-                    alt={feature.name}
-                    src={feature.imageURL}
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
-                  />
-                }
-              />
-            ))
-          : mobile.map((feature, idx) => (
-              <BentoCard
-                key={idx}
-                {...feature}
-                className=""
-                href={feature.href === undefined ? "/" : feature.href}
-                cta=""
-                background={
-                  <Image
-                    alt={feature.name}
-                    src={feature.imageURL}
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
-                  />
-                }
-              />
             ))}
+        <BentoGrid className="grid grid-cols-1 md:grid-cols-2">
+          {lang === "ru"
+            ? mobileRu.map((feature, idx) => (
+                <BentoCard
+                  key={idx}
+                  {...feature}
+                  className=""
+                  href={feature.href === undefined ? "/" : feature.href}
+                  cta=""
+                  background={
+                    <Image
+                      alt={feature.name}
+                      src={feature.imageURL}
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
+                    />
+                  }
+                />
+              ))
+            : mobile.map((feature, idx) => (
+                <BentoCard
+                  key={idx}
+                  {...feature}
+                  className=""
+                  href={feature.href === undefined ? "/" : feature.href}
+                  cta=""
+                  background={
+                    <Image
+                      alt={feature.name}
+                      src={feature.imageURL}
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
+                    />
+                  }
+                />
+              ))}
+        </BentoGrid>
       </BentoGrid>
     </section>
   );

@@ -9,7 +9,7 @@ const serviceList: ServiceProps[] = [
   {
     title: "SaaS and Startups",
     description:
-      "I develop complex SaaS apps. A few examples of my past work are AI customer support solution and Twitter Cold DM automation software",
+      "I develop complex SaaS apps and quickly get MVPs to the market",
   },
   {
     title: "Frontend development",
