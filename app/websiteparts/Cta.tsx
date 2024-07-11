@@ -1,5 +1,5 @@
 import { IoLogoGithub, IoLogoTwitter } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaDiscord, FaTelegram } from "react-icons/fa6";
 
 export default function CTA({ lang }: { lang: string }) {
   return (
@@ -21,7 +21,7 @@ export default function CTA({ lang }: { lang: string }) {
           </p> */}
         </div>
 
-        <div className="text-lg font-bold text-white text-center my-8">
+        <div className="text-lg font-medium text-white text-center my-8">
           {lang === "ru" ? "Напишите мне на" : "Email me at"}{" "}
           <a
             className="underline"
@@ -57,6 +57,17 @@ export default function CTA({ lang }: { lang: string }) {
                 window.open("https://t.me/holygoose", "_blank");
               }}
             />
+            {/* <FaDiscord
+              // color="#fff"
+              size={35}
+              className="transition-all hover:scale-[90%] cursor-pointer text-white hover:text-background"
+              onClick={() => {
+                window.open(
+                  "https://discord.com/users/500880594373443584",
+                  "_blank"
+                );
+              }}
+            /> */}
           </div>
         </div>
       </div>
