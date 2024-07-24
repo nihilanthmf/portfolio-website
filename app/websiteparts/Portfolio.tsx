@@ -4,7 +4,7 @@ import imageNutry from "../assets/nutry.jpeg";
 import imageSummify from "../assets/summify.jpeg";
 import imageCyber from "../assets/cyberchat.jpeg";
 import imageEAIQ from "../assets/eaiq.jpeg";
-import imageInvoflow from "../assets/invoflow.png";
+import imageInvoflow from "../assets/invoflow.jpeg";
 import imageDanielMap from "../assets/map.jpeg";
 
 import { BentoCard, BentoGrid } from "../components/magicui/bento-grid";
