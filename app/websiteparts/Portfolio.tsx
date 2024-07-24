@@ -44,14 +44,14 @@ const cards = [
     href: "https://invoflow.vercel.app/",
     mobile: false,
   },
-  {
-    imageURL: imageEAIQ,
-    name: "evoAIq",
-    stack: "Next.js",
-    description: "Landing page for AI automation agency",
-    href: "https://aideal.online",
-    mobile: false,
-  },
+  // {
+  //   imageURL: imageEAIQ,
+  //   name: "evoAIq",
+  //   stack: "Next.js",
+  //   description: "Landing page for AI automation agency",
+  //   href: "https://aideal.online",
+  //   mobile: false,
+  // },
 ];
 
 const cardsRu = [
@@ -81,14 +81,14 @@ const cardsRu = [
     href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
   },
-  {
-    imageURL: imageEAIQ,
-    name: "evoAIq",
-    stack: "Next.js",
-    description: "Сайт компании по разработке ИИ продуктов",
-    href: "https://eaiq.io",
-    mobile: false,
-  },
+  // {
+  //   imageURL: imageEAIQ,
+  //   name: "evoAIq",
+  //   stack: "Next.js",
+  //   description: "Сайт компании по разработке ИИ продуктов",
+  //   href: "https://eaiq.io",
+  //   mobile: false,
+  // },
 ];
 
 const mobile = [
@@ -123,14 +123,14 @@ const mobileRu = [
     href: "/",
     mobile: true,
   },
-  {
-    imageURL: imageNutry,
-    name: "Nutry",
-    stack: "placeholder",
-    description: "Счетчик калорий с элементами геймификации",
-    href: "/",
-    mobile: true,
-  },
+  // {
+  //   imageURL: imageNutry,
+  //   name: "Nutry",
+  //   stack: "placeholder",
+  //   description: "Счетчик калорий с элементами геймификации",
+  //   href: "/",
+  //   mobile: true,
+  // },
   {
     imageURL: imageGymBro,
     name: "GymBro",
@@ -159,7 +159,6 @@ export default function Portfolio({ lang }: { lang: string }) {
                     src={feature.imageURL}
                     width={1000}
                     height={1000}
-                    objectFit="cover"
                   />
                 }
               />
@@ -176,7 +175,6 @@ export default function Portfolio({ lang }: { lang: string }) {
                     src={feature.imageURL}
                     width={1000}
                     height={1000}
-                    // objectFit="contain"
                   />
                 }
               />
