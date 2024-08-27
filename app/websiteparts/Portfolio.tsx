@@ -36,14 +36,14 @@ const cards = [
     href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
   },
-  {
-    imageURL: imageInvoflow,
-    name: "Invoflow",
-    stack: "Next.js, Supabase",
-    description: "Invoicing software",
-    href: "https://invoflow.vercel.app/",
-    mobile: false,
-  },
+  // {
+  //   imageURL: imageInvoflow,
+  //   name: "Invoflow",
+  //   stack: "Next.js, Supabase",
+  //   description: "Invoicing software",
+  //   href: "https://invoflow.vercel.app/",
+  //   mobile: false,
+  // },
   // {
   //   imageURL: imageEAIQ,
   //   name: "evoAIq",

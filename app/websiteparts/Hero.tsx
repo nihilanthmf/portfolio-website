@@ -110,7 +110,7 @@ export default function Hero({ lang }: { lang: string }) {
             className="-rotate-[30deg] mb-2"
           />
           <p className="text-text text-[12px] text-center mr-2">
-            {lang === "ru" ? "1900+ коммитов за" : "1500+ contributions"}
+            {lang === "ru" ? "2300+ коммитов за" : "2300+ contributions"}
             <br></br>
             {lang === "ru"
               ? "последние 6 месяцев 🤯"
