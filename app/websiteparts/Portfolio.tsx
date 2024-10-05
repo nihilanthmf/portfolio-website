@@ -36,22 +36,22 @@ const cards = [
     href: "https://cyberchatai.vercel.app?la=en",
     mobile: false,
   },
-  // {
-  //   imageURL: imageInvoflow,
-  //   name: "Invoflow",
-  //   stack: "Next.js, Supabase",
-  //   description: "Invoicing software",
-  //   href: "https://invoflow.vercel.app/",
-  //   mobile: false,
-  // },
-  // {
-  //   imageURL: imageEAIQ,
-  //   name: "evoAIq",
-  //   stack: "Next.js",
-  //   description: "Landing page for AI automation agency",
-  //   href: "https://aideal.online",
-  //   mobile: false,
-  // },
+  {
+    imageURL: imageInvoflow,
+    name: "Invoflow",
+    stack: "Next.js, Supabase",
+    description: "Invoicing software",
+    href: "https://invoflow.vercel.app/",
+    mobile: false,
+  },
+  {
+    imageURL: imageEAIQ,
+    name: "evoAIq",
+    stack: "Next.js",
+    description: "Landing page for AI automation agency",
+    href: "https://aideal.online",
+    mobile: false,
+  },
 ];
 
 const cardsRu = [
