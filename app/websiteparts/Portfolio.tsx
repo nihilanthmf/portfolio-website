@@ -3,7 +3,7 @@ import imageGymBro from "../assets/gymbro.jpeg";
 import imageNutry from "../assets/nutry.jpeg";
 import imageSummify from "../assets/summify.jpeg";
 import imageCyber from "../assets/cyberchat.jpeg";
-import imageEAIQ from "../assets/eaiq.jpeg";
+import imageEAIQ from "../assets/evoiq.jpeg";
 import imageInvoflow from "../assets/invoflow.jpeg";
 import imageDanielMap from "../assets/map.jpeg";
 
@@ -49,7 +49,7 @@ const cards = [
     name: "evoAIq",
     stack: "Next.js",
     description: "Landing page for AI automation agency",
-    href: "https://aideal.online",
+    href: "",
     mobile: false,
   },
 ];
