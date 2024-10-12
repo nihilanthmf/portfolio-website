@@ -21,7 +21,7 @@ export default function CTA({ lang }: { lang: string }) {
           </p> */}
         </div>
 
-        <div className="text-lg font-medium text-white text-center my-8">
+        <div className="text-lg font-normal text-white text-center my-8">
           {lang === "ru" ? "Напишите мне на" : "Email me at"}{" "}
           <a
             className="underline"
